@@ -11,11 +11,11 @@
             var u = navigator.userAgent;
             var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
             var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
-            var link = 'https://aolinews.oss-ap-southeast-2.aliyuncs.com/oliview/Oli_View.apk'
+            var link = 'https://play.google.com/store/apps/details?id=com.flutter.aoli'
             if (isiOS) {
                 var link = 'https://apps.apple.com/au/app/oli-views/id1603562231'
             } else if (isAndroid) {
-                link = 'https://aolinews.oss-ap-southeast-2.aliyuncs.com/oliview/Oli_View.apk'
+                link = 'https://play.google.com/store/apps/details?id=com.flutter.aoli'
             }
             window.open(link, '_self');
         }
