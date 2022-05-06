@@ -18,7 +18,9 @@
                 link = 'https://aolinews.oss-ap-southeast-2.aliyuncs.com/oliview/Oli_View.apk'
             }
             win = window.open(link);
-            window.close();
+            setTimeout(() => {
+                window.close();
+            }, 1000)
         }
         appDown();
     </script>
